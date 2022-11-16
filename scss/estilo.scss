@@ -1,0 +1,59 @@
+header{
+    h1{
+        color: brown;
+        font-size: 150px black;
+        text-transform: uppercase;
+    
+    }
+
+}
+
+nav{
+    li{
+        list-style: none;
+
+        a{
+            text-decoration: none;
+            color: blue;
+            text-align: inherit;
+
+            &:hover{
+                background-color: brown;
+            }
+        }
+    }
+}
+
+
+body{
+    background-image: url(https://thevegclub.cl/wp-content/uploads/2020/06/fondo-slider-veganbox-E-1.png);
+
+    .parrafoDos{
+        text-align: center;
+        background-color: blanchedalmond;
+        text-transform: uppercase;
+    }
+    
+    .parrafoTres{
+        text-align: left;
+        background-size: 230px;
+        background-color: cadetblue;
+        font-weight: bold;
+    
+    
+    }
+    
+    .parrafoNosotros{
+        text-align: center;
+        color: brown;
+        background-color: bisque;
+        font-weight: bold;
+    }
+    
+    .parrafoUs{
+        text-align: center;
+        background-color: azure;
+        background-image: url(https://media.ambito.com/p/e89ae2e259aa3d8db53266ba0e542451/adjuntos/239/imagenes/039/495/0039495428/730x0/smart/panaderosjpg.jpg);
+    }
+    
+}
