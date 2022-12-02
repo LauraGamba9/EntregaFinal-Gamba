@@ -3,10 +3,12 @@ header h1 {
   font-size: 50px;
   font-family: monospace;
   text-transform: uppercase;
+}
   
 nav li {
   list-style: none;
 }
+
 nav li a {
 
   .boxOne { 
@@ -14,18 +16,19 @@ nav li a {
     color: darkgray;
     height: 50px;
     width: 50px;
-    border: 1px burlywood
+    border: 1px;
 
 }
 
 
 }
+
 nav li a:hover {
   background-color: brown;
 }
 
 body{
-  background-image: url(https://img.freepik.com/free-vector/hand-drawn-bakery-background_23-2148136973.jpg);
+  background-image: url(https://img.freepik.com/free-vector/flat-design-bakery-template_23-2149389475.jpg?w=2000);
 }
 
 body .parrafoDos {
