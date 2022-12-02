@@ -1,24 +1,33 @@
 header h1 {
   color: brown;
-  font-size: 150px black;
+  font-size: 50px;
+  font-family: monospace;
   text-transform: uppercase;
-}
-
+  
 nav li {
   list-style: none;
 }
 nav li a {
-  text-decoration: none;
-  color: blue;
-  text-align: inherit;
+
+  .boxOne { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkgray;
+    height: 50px;
+    width: 50px;
+    border: 1px burlywood
+
+}
+
+
 }
 nav li a:hover {
   background-color: brown;
 }
 
-body {
-  background-image: url(https://thevegclub.cl/wp-content/uploads/2020/06/fondo-slider-veganbox-E-1.png);
+body{
+  background-image: url(https://img.freepik.com/free-vector/hand-drawn-bakery-background_23-2148136973.jpg);
 }
+
 body .parrafoDos {
   text-align: center;
   background-color: blanchedalmond;
@@ -39,7 +48,11 @@ body .parrafoNosotros {
 body .parrafoUs {
   text-align: center;
   background-color: azure;
-  background-image: url(https://media.ambito.com/p/e89ae2e259aa3d8db53266ba0e542451/adjuntos/239/imagenes/039/495/0039495428/730x0/smart/panaderosjpg.jpg);
+  
 }
 
+
+
+
 /*# sourceMappingURL=estilo.css.map */
+
